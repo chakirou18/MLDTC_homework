@@ -204,6 +204,8 @@ To reproduce the API test from a fresh clone, include `house.json` as a non-sens
 ### 6.7 Dataset Attribution
 
 Candanedo, L. (2017). *Appliances Energy Prediction*. UCI Machine Learning Repository.
+DOI: https://doi.org/10.24432/C5VC8G
+
 ## 7. Docker Containerization
 
 EnergyPredict AI is containerized using Docker. The Docker image includes Python 3.11, the required dependencies, the trained Random Forest model, Flask, and Gunicorn.
@@ -261,5 +263,5 @@ The Docker image was built and tested successfully on November 4, 2026.
 
 The `/predict` endpoint returned HTTP `200 OK` and a prediction of approximately `152.13 Wh` using the example input data.
 
-DOI: https://doi.org/10.24432/C5VC8G
+
 

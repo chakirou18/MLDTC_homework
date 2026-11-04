@@ -1,0 +1,29 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model backups
+*.backup
+*.bak
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Development caches
+.pytest_cache/
+.ruff_cache/
+
+# System files
+.DS_Store
+
+# Local logs
+*.log
